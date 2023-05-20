@@ -10,79 +10,69 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.ico" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-  <script src="assets/js/jquery-3.3.1.min.js"></script>
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+  <link href="../assets/img/favicon.ico" rel="icon">
+  <link href="../assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <script src="../assets/js/jquery-3.3.1.min.js"></script>
 
   <!-- Google Fonts
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 -->
   <!-- Vendor CSS Files -->
-  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="../assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="../assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="../assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="../assets/css/style.css" rel="stylesheet">
   <style media="screen">
     .alt-color {
       background-color: transparent !important;
     }
     @media only screen and (min-width: 992px) {
       nav#navbar.navbar.acolor a.acl,nav#navbar.navbar.acolor .bi.mobile-nav-toggle.bi-list{
-        color:white !important;
+        color:white;
       }
     }
     nav#navbar.navbar.acolor i.bi.bi-list.mobile-nav-toggle{
-      color:white !important;
+      color:white;
     }
-
 
     nav#navbar.navbar.acolor a.acl.active{
-      font-weight: bolder !important;
+      font-weight: bolder;
     }
     nav#navbar.navbar.acolor a.acl:hover{
-      color:red !important;
+      color:red;
     }
     a#acl.loga{
-      color:white !important;
-      font-weight: bold !important;
+      color:white;
+      font-weight: bold;
     }
-	<div id="google_translate_element"></div>
-   <script type="text/javascript">// <![CDATA[
-       function googleTranslateElementInit() {
-           new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
-         }
-// ]]></script>
-<script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit" type="text/javascript"></script>
   </style>
 </head>
 <body>
-  <div id="preloader">
-    <div id="status">&nbsp;</div>
-  </div>
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top d-flex align-items-center navbars">
     <div class="container d-flex align-items-center">
 
-      <h1 class="logo me-auto"><a class="loga" href="index.php">Blood Donation Management System</a></h1>
+      <h1 class="logo me-auto"><a class="loga" href="../index.php">Blood Donation Management System</a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.php" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      <!-- <a href="../index.php" class="logo me-auto"><img src="../assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a href="index.php" class="active" class="acl" class="nsd" id="home">Home</a></li>
+          <li><a href="../index.php" class="nsd" class="acl" id="home">Home</a></li>
 
-          <li class="dropdown"><a href="#" class="acl"><span>About</span> <i class="bi bi-chevron-down"></i></a>
+          <li class="dropdown"><a href="#" class="acl" class="nsd" id="about"><span>About</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="partials/about.php" >About</a></li>
-              <li><a href="partials/testimonials.php" >Testimonials</a></li>
-              <li><a href="partials/locations.php" >Locations</a></li>
+              <li><a href="about.php" class="nsd" id="abt">About</a></li>
+
+              <li><a href="testimonials.php" class="nsd" id="testimonials">Testimonials</a></li>
+              <li><a href="locations.php" class="nsd" id="location">Locations</a></li>
+
               <li class="dropdown"><a href="#" ><span>Events</span> <i class="bi bi-chevron-right"></i></a>
                 <ul>
                   <li><a href="#">Blood Drives</a></li>
@@ -93,14 +83,12 @@
               </li>
             </ul>
           </li>
-          <li><a href="partials/portfolio.php" class="acl">Gallery</a></li>
-          <li><a href="partials/faq.php" class="acl">FAQs</a></li>
-          
+          <li><a href="portfolio.php" class="acl" class="nsd" id="gallery">Gallery</a></li>
+          <li><a href="faq.php" class="acl" class="nsd" id="faq">FAQs</a></li>
+          <li><a href="blog.php" class="acl" class="nsd" id="blog">Blog</a></li>
 
-          <li><a href="partials/contact.php" class="acl">Contact</a></li>
-		  <li><a href="partials/donate_blood.php" class="acl">Become a donor</a></li>
-		  <li><a href="partials/need_blood.php" class="acl">Need Blood</a></li>
-          <li><a href="/phpmyadmin/idonate/dashboard/index.php" class="getstarted" class="acl"><span class="bi bi-person-fill" data-icon="" data-inline="false"></span>&nbspLogin</a></li>
+          <li><a href="contact.php" class="acl" class="nsd" id="contact">Contact</a></li>
+          <li><a href="../dashboard/index.php" class="getstarted" class="acl"><span class="bi bi-person-fill" data-icon="" data-inline="false"></span>&nbspLogin</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
