@@ -13,7 +13,7 @@
         <div class="carousel-item active" style="background-image: url(assets/img/medic/b8.jpg)">
           <div class="carousel-container">
             <div class="container">
-              <h2 class="animate__animated animate__fadeInDown">Welcome to <span>Blood Donation Management System</span></h2>
+              <h2 class="animate__animated animate__fadeInDown">இரத்த வங்கி மேலாண்மை அமைப்புக்கு வரவேற்கிறோம்</span></h2>
               <p class="animate__animated animate__fadeInUp">
                 “Do good for others by giving from what you have. Surely, it will come back to you with greater value- donate blood”
          
